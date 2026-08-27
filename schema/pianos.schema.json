@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OpenPianos piano record",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "lat",
+    "lon",
+    "status",
+    "url"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Permanent OpenPianos id — never changed, never reused"
+    },
+    "name": {
+      "type": "string"
+    },
+    "lat": {
+      "type": "number"
+    },
+    "lon": {
+      "type": "number"
+    },
+    "address": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "access": {
+      "enum": [
+        "public",
+        "bookable",
+        "ask"
+      ]
+    },
+    "hours": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "temporary",
+        "needs_verification",
+        "removed"
+      ],
+      "description": "removed = the piano is gone; the record stays (absence is data)"
+    },
+    "instrument": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source",
+          "ref"
+        ],
+        "properties": {
+          "source": {
+            "type": "string"
+          },
+          "ref": {
+            "type": "string"
+          }
+        }
+      },
+      "description": "External records crosswalked to this piano — report back against these ids"
+    },
+    "url": {
+      "type": "string",
+      "description": "The piano's page on openpianos.net"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "last_verified_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Last HUMAN verification at the piano. Imported presence never sets this."
+    }
+  }
+}
