@@ -3,8 +3,8 @@
  "dataset": "OpenPianos",
  "license": "CC0-1.0",
  "url": "https://openpianos.net",
- "generated": "2026-09-02T15:17:40.230Z",
- "count": 6,
+ "generated": "2026-09-02T15:20:25.861Z",
+ "count": 5,
  "features": [
   {
    "type": "Feature",
@@ -124,41 +124,6 @@
     "created_at": "2026-08-31T23:57:02.288Z",
     "updated_at": "2026-09-01T16:07:08.185Z",
     "last_verified_at": "2026-09-01T00:01:29.875Z"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     4.23963,
-     52.0839
-    ]
-   },
-   "properties": {
-    "id": "0z1er5",
-    "name": "De Kwartel",
-    "city": "The Hague",
-    "region": "South Holland",
-    "country": "Netherlands",
-    "access": "public",
-    "status": "removed",
-    "description": "Removed piano, recorded from pianos.pub: c57255f: De Kwartel — new from pianos.pub",
-    "sources": [
-     {
-      "source": "pianos.pub",
-      "ref": "c57255f",
-      "url": "https://pianos.pub/piano/c57255f",
-      "sightings": 1,
-      "first_seen": "2019-07-02",
-      "last_seen": "2019-07-02",
-      "reports_absent": false
-     }
-    ],
-    "url": "https://openpianos.net/piano/0z1er5",
-    "created_at": "2026-08-30T18:13:48.422Z",
-    "updated_at": "2026-08-30T18:13:48.422Z",
-    "last_verified_at": null
    }
   },
   {

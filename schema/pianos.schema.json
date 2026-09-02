@@ -55,10 +55,8 @@
       "enum": [
         "active",
         "temporary",
-        "needs_verification",
-        "removed"
-      ],
-      "description": "removed = the piano is gone; the record stays (absence is data)"
+        "needs_verification"
+      ]
     },
     "instrument": {
       "type": "string"

@@ -1,7 +1,7 @@
 # OpenPianos — Dataset
 
 <!-- stats:start -->
-**6 pianos** as of 2026-09-02 — Netherlands 6.
+**5 pianos** as of 2026-09-02 — Netherlands 5.
 Sources crosswalked per record; `last_verified_at` is only ever set by a human at the piano.
 <!-- stats:end -->
 
