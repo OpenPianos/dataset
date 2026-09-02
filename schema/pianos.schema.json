@@ -16,7 +16,12 @@
       "description": "Permanent OpenPianos id — never changed, never reused"
     },
     "name": {
-      "type": "string"
+      "type": "string",
+      "description": "The LOCAL name — what the signage says"
+    },
+    "name_en": {
+      "type": "string",
+      "description": "Optional international alias"
     },
     "lat": {
       "type": "number"
@@ -58,8 +63,12 @@
     "instrument": {
       "type": "string"
     },
-    "notes": {
+    "venue_type": {
       "type": "string"
+    },
+    "description": {
+      "type": "string",
+      "description": "The authored paragraph on the piano page"
     },
     "sources": {
       "type": "array",
